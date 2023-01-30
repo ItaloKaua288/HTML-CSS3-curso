@@ -29,3 +29,20 @@ section#telefone {
     background-size: contain;
     background-position: center center;
 }
+iframe {
+    width: 212px;
+    height: 374px;
+    position: relative;
+    top: 66px;
+    left: 18px;
+}
+section#redes-sociais {
+    width: 84px;
+    height: 85vh;
+    background-color: blue;
+}
+a > img {
+    border-radius: 50%;
+    width: 5vw;
+    margin: 2px
+}
