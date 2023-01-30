@@ -37,12 +37,20 @@ iframe {
     left: 18px;
 }
 section#redes-sociais {
-    width: 84px;
-    height: 85vh;
-    background-color: blue;
+    display: grid;
+    width: 100vw;
+    text-align: right;
 }
 a > img {
     border-radius: 50%;
     width: 5vw;
-    margin: 2px
+    margin: 8px;
+    box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.61);
+    box-sizing: border-box;
+}
+a > img:hover {
+    border: 1px solid rgba(255, 255, 255, 0.664);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.61);
+    transition: transform 0.4s, border 0.4s;
 }
