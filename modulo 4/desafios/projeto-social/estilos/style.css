@@ -37,13 +37,12 @@ iframe {
     left: 18px;
 }
 section#redes-sociais {
-    display: grid;
     width: 100vw;
     text-align: right;
 }
 a > img {
     border-radius: 50%;
-    width: 5vw;
+    width: clamp(40px, 5vw, 5vw);
     margin: 8px;
     box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.61);
     box-sizing: border-box;
